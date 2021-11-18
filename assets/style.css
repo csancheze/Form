@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(118, 87, 167);
+    font-family:'Courier New', Courier, monospace
+}
+
+
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 5vh auto 0 auto;
+    font-size: 5vh;
+    max-width: 100%;
+    padding-bottom: 0;
+}
+
+
+#description {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 2vh;
+    margin: 0 auto 2vh auto;
+    padding-top: 0;
+    font-weight: lighter;
+    max-width: 100%;
+}
+
+form {
+    width: 50%;
+    background:rgb(77, 57, 109) ;
+    padding: 2vh 2vw 3vh 2vw;
+    margin: auto;
+    border-radius: 15pt;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+    
+}
+
+ul {
+    list-style: none;
+    width: 90%;
+    padding: 0;
+    margin: 1vh auto;
+}
+
+li {
+    width:100%;
+    margin: 1.5vh auto;
+}
+
+.textinput {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px; 
+    margin: 0 auto;
+    padding: 5px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(95, 95, 95);
+}
+
+
+li div{
+    display:block;
+    margin-top: 1vh;
+    padding: 0;
+    margin: 0;
+}
+
+#submit {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    height: 4.5vh;
+    color: white;
+    background-color: rgb(114, 199, 114);
+    border-radius: 5px;
+    font-size: 2vh;
+    font-family:'Courier New', Courier, monospace; 
+}
+
+
+
+

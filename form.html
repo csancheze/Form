@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Example Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1.0'  >
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1 id="title">Example Form</h1>
+    <p id="description">This an example of a form with its various inputs.</h2>
+        <form id="survey-form">
+            <ul>
+            <li>
+            <label id="name-label" for="name">Name</label>
+            <input class="textinput" type="text" id="name" name="name" placeholder="Enter name" required>
+            </li>
+            <li>
+            <label id="email-label" for="email">Email</label>
+            <input class="textinput" type="email" id="email" name="name" placeholder="Enter email" required>
+            </li>
+            <li>             
+            <label id="number-label" for="number">Age</label>
+            <input class="textinput" type="number" min="18" max="99" id="number" name="name" placeholder="Age">
+            </li>
+            <li> 
+            <label for="dropdown"> Choose one:</label>
+            <select class="textinput" id="dropdown" name="rock-paper-scissors">
+                <option value="rock">Choose</option>
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">scissors</option>
+            </select>
+            </li> 
+            <li">
+            <p>What flavor do you prefer?</p>
+            <div>
+            <input type="radio" id="radio1" name="flavor" value="chocolate">
+            <label for="radio1">Chocolate</label>
+            </div>
+            <div>
+            <input type="radio" id="radio2" name="flavor" value="lemon">
+            <label for="radio2">Lemon</label>
+            </div>
+            <div>
+            <input type="radio" id="radio3" name="flavor" value="spicy">
+            <label for="radio3">Spicy</label>
+             </div>
+             <div>
+            <input type="radio" id="radio4" name="flavor" value="coffee">
+            <label for="radio4">Coffee</label>
+            </div>
+            </li>
+            <li>
+            <p>Mark your favorite pizza toppings</p>
+            <div>
+            <input type="checkbox" id="checkbox1" name="topping1" value="pineapple">
+            <label for="checkbox1">Pineapple</label>
+            </div>
+            <div>
+            <input type="checkbox" id="checkbox2" name="topping2" value="pepperoni">
+            <label for="checkbox2">Pepperoni</label>
+            </div>
+            <div>
+            <input type="checkbox" id="checkbox3" name="topping3" value="bacon">
+            <label for="checkbox3">Bacon</label>
+            </div>
+            <div>
+            <input type="checkbox" id="checkbox3" name="topping4" value="mushrooms">
+            <label for="checkbox3">Mushrooms</label>
+            </div>
+            </li>
+            <li>
+            <label for="textarea1">Describe yourself in a few words:</label>
+            <textarea class="textinput" id="textarea1" name="textarea1" rows="5" cols="50">*Enter your description here*</textarea>
+            </li>
+            <li>
+            <input id="submit" type="submit">
+            </li>
+            </ul>
+
+
+
+        </form>
+
+
+    
+</body>
+</html>
